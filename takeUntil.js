@@ -45,4 +45,6 @@ console.log(results2);
 
 //AssertEqual Test cases
 assertArraysEqual(takeUntil(data1, x => x < 0), [1, 2, 5, 7, 2]);
-assertArraysEqual(takeUntil(data2, x => x === ','),[ 'I\'ve', 'been', 'to', 'Hollywood' ])
+assertArraysEqual(takeUntil(data2, x => x === ','),[ 'I\'ve', 'been', 'to', 'Hollywood' ]);
+
+module.exports = takeUntil;
